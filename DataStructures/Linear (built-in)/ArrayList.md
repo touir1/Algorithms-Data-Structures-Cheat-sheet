@@ -2,7 +2,7 @@
 
 Some key points:
 
-- An array has a dynamic size
+- An ArrayList has a dynamic size
 
 - Size is incremented by 50% if size after adding exceeds current capacity
 
