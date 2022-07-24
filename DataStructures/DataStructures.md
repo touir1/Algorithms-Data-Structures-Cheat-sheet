@@ -32,6 +32,14 @@ All the data structures complexities are also listed: [time complexity](#time-co
     | size increment | 50% of current size if excceds capacity | 100% of current size if exceeds capacity |
     | speed          | faster as it's not synchronized         | slower as it's synchronized              |
 
+- Bitmask: [Java](inear%20(built-in)/Bitmask.md)
+  
+  - short sequence of bits
+  
+  - usually represented by an integer (32 bits) or long (64 bits) value
+  
+  - quicker than an array of booleans as it uses bitwise operators
+
 ## Non-linear data structures (built-in)
 
 ## Other data structures (implemented)
@@ -43,3 +51,4 @@ All the data structures complexities are also listed: [time complexity](#time-co
 | Static Array   | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | ArrayList      | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | Vector         | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
+| Bitmask        | O(1)           | O(1)   | ?      | ?      | ?                   | ?               |
