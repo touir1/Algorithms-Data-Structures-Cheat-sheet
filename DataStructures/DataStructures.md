@@ -32,7 +32,7 @@ All the data structures complexities are also listed: [time complexity](#time-co
     | size increment | 50% of current size if excceds capacity | 100% of current size if exceeds capacity |
     | speed          | faster as it's not synchronized         | slower as it's synchronized              |
 
-- Bitmask: [Java](inear%20(built-in)/Bitmask.md)
+- Bitmask: [Java](Linear%20(built-in)/Bitmask.md)
   
   - short sequence of bits
   
