@@ -99,11 +99,11 @@ int index = list.lastIndexOf(element);
 // check if element exists in the list
 boolean exists = list.contains(element);
 
-// if the l iists sorted, we can use binary search
-int index = Collections.binarySearch(intArray, 4);
+// if the lists sorted, we can use binary search
+int index = Collections.binarySearch(list, 4);
 // if the list is sorted using a custom comparator
 // you can pass the comparator as parameter for the search
-int index = Arrays.binarySearch(intArray, 4, comparator);
+int index = Collections.binarySearch(list, 4, comparator);
 ```
 
 ## Concatenating

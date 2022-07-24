@@ -174,7 +174,7 @@ bitmask = 13 & (1 << 2); // 2
 
 // so the check would be
 if(bitmask & (1 << (i-1)) != 0) { // if i-th bit is on
-    
+
 }
 ```
 
@@ -251,5 +251,3 @@ Beware of overflows, as setting for example all the bits of an integer (32 bits)
 // 011111 ( 63)
 bitmask = (1 << 5) -1;
 ```
-
-
