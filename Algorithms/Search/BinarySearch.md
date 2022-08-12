@@ -23,3 +23,39 @@ So, the algorithm goes as follows: (we're working with an array sorted in ascend
 7. Else, go back to step 2
 
 ![](https://github.com/touir1/Algorithms-Data-Structures-Cheat-sheet/blob/main/Algorithms/Search/Images/Binary_search_animation.gif)
+
+
+
+Here's the code for the binary search algorithm:
+
+```java
+int[] array = new int[] {1,3,11,23,42,54,59,67,70,73,75,80,81,83,87,92};
+		
+// we're looking for the element 59 in the array
+int value = 59;
+int found = -1;
+// initializing left = 0 and right = size of array
+int left = 0, right = array.length;
+int pivot;
+
+// continue while left <= right and value not found
+while(left <= right) {
+	pivot = (left+right)/2;
+	
+	if(array[pivot] == value) {
+		found = pivot;
+		break;
+	}
+	
+	if(array[pivot] > value)
+		right = pivot - 1;
+	else
+		left = pivot + 1;
+}
+
+// check if the element is found
+if(found != -1)
+	System.out.println("Element found at index: "+ found);
+else
+	System.out.println("Element was not found");
+```
