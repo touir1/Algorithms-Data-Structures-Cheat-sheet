@@ -24,13 +24,11 @@ So, the algorithm goes as follows: (we're working with an array sorted in ascend
 
 ![](https://github.com/touir1/Algorithms-Data-Structures-Cheat-sheet/blob/main/Algorithms/Search/Images/Binary_search_animation.gif)
 
-
-
 Here's the code for the binary search algorithm:
 
 ```java
 int[] array = new int[] {1,3,11,23,42,54,59,67,70,73,75,80,81,83,87,92};
-		
+
 // we're looking for the element 59 in the array
 int value = 59;
 int found = -1;
@@ -40,22 +38,52 @@ int pivot;
 
 // continue while left <= right and value not found
 while(left <= right) {
-	pivot = (left+right)/2;
-	
-	if(array[pivot] == value) {
-		found = pivot;
-		break;
-	}
-	
-	if(array[pivot] > value)
-		right = pivot - 1;
-	else
-		left = pivot + 1;
+    pivot = (left+right)/2;
+
+    if(array[pivot] == value) {
+        found = pivot;
+        break;
+    }
+
+    if(array[pivot] > value)
+        right = pivot - 1;
+    else
+        left = pivot + 1;
 }
 
 // check if the element is found
 if(found != -1)
-	System.out.println("Element found at index: "+ found);
+    System.out.println("Element found at index: "+ found);
 else
-	System.out.println("Element was not found");
+    System.out.println("Element was not found");
+```
+
+For the complexities:
+
+- Time complexity: O(log N) as we're splitting the search by 2 at each iteration
+
+- Space complexity: O(1) as we don't need extra space for the algorithm
+
+Function implementation:
+
+```java
+public static int search(int[] array, int length, int element) {
+	int left = 0, right = length - 1;
+	int pivot;
+	
+	while(left <= right) {
+		pivot = (left + right) / 2;
+		
+		if(array[pivot] == element) {
+			return pivot;
+		}
+		
+		if(array[pivot] > element)
+			right = pivot - 1;
+		else
+			left = pivot + 1;
+	}
+	
+	return -1;
+}
 ```
