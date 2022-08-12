@@ -18,6 +18,8 @@ So, the algorithm goes as follows: (we're working with an array sorted in ascend
 
 5. if pivot value < searched value the right pointer takes the value of pivot - 1
 
-6. if distance between left and right < = 1, stop the algorithm, the value was not found
+6. if distance between left and right < 0, stop the algorithm, the value was not found
 
 7. Else, go back to step 2
+
+![](https://github.com/touir1/Algorithms-Data-Structures-Cheat-sheet/blob/main/Algorithms/Search/Images/Binary_search_animation.gif)
