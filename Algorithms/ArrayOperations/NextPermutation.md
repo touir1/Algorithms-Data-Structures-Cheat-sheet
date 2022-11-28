@@ -1,7 +1,5 @@
 # Next Permutation Algorithm (Java)
 
-
-
 ```java
 public static boolean nextPermutation(char[] arr) {
 		
@@ -39,4 +37,6 @@ More information:
 
 - [Reverse algorithm](Reverse.md)
 
+Bibliography:
 
+- [Implementing next_permutation() in Java with Examples - GeeksforGeeks](https://www.geeksforgeeks.org/implementing-next_permutation-in-java-with-examples/)
