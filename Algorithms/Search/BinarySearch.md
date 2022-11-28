@@ -68,22 +68,22 @@ Function implementation:
 
 ```java
 public static int search(int[] array, int length, int element) {
-	int left = 0, right = length - 1;
-	int pivot;
-	
-	while(left <= right) {
-		pivot = (left + right) / 2;
-		
-		if(array[pivot] == element) {
-			return pivot;
-		}
-		
-		if(array[pivot] > element)
-			right = pivot - 1;
-		else
-			left = pivot + 1;
-	}
-	
-	return -1;
+    int left = 0, right = length - 1;
+    int pivot;
+
+    while(left <= right) {
+        pivot = (left + right) / 2;
+
+        if(array[pivot] == element) {
+            return pivot;
+        }
+
+        if(array[pivot] > element)
+            right = pivot - 1;
+        else
+            left = pivot + 1;
+    }
+
+    return -1;
 }
 ```
