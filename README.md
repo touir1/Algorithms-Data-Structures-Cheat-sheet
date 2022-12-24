@@ -10,8 +10,9 @@ Data structures listing is found [here](DataStructures/DataStructures.md).
 
 Algorithms listing is found [here](Algorithms/Algorithms.md).
 
-
+```
 Todo list:
 - [ ] Explain Next Permutation algorithm
 - [ ] Add and explain QuickSort algorithm
 - [ ] Add and explain QuickSelect algorithm
+```
