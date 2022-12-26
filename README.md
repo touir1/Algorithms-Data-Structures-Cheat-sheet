@@ -15,4 +15,3 @@ Algorithms listing is found [here](Algorithms/Algorithms.md).
 
 - [ ] Explain Next Permutation algorithm
 - [ ] Add and explain QuickSort algorithm
-- [ ] Explain QuickSelect algorithm
