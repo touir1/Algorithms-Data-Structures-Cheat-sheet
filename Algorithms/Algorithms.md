@@ -18,18 +18,18 @@ In here, you'll find a list of many interesting algorithms with some explanation
 
 ## Search algorithms
 
-| Algorithm                                                       | Time complexity                                                        |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Linear search ([details](Search/LinearSearch.md))               | O(N)                                                                   |
-| Binary search ([details](Search/BinarySearch.md))               | O(log N)                                                               |
-| Hashing ([details](Search/Hashing.md))                          | depends if all have the same hash it's O(N), O(1) if hashes are unique |
+| Algorithm                                                       | Time complexity                                                        | Space complexity |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------- |
+| Linear search ([details](Search/LinearSearch.md))               | O(N)                                                                   | O(1)             |
+| Binary search ([details](Search/BinarySearch.md))               | O(log N)                                                               | O(1)             |
+| Hashing ([details](Search/Hashing.md))                          | depends if all have the same hash it's O(N), O(1) if hashes are unique | O(n)             |
 
 
 ## Array operations
 
-| Algorithm                                                                 | Time complexity |
-| ------------------------------------------------------------------------- | --------------- |
-| Swap ([details](ArrayOperations/Swap.md))                                 | O(1)            |
-| Reverse ([details](ArrayOperations/Reverse.md))                           | O(N)            |
-| Next Permutation ([details](ArrayOperations/NextPermutation.md))          | O(N)            |
-| Quick select (nth Element) ([details](ArrayOperations/QuickSelect.md))    | O(n^2)          |
+| Algorithm                                                                 | Time complexity | Space complexity |
+| ------------------------------------------------------------------------- | --------------- | ---------------- |
+| Swap ([details](ArrayOperations/Swap.md))                                 | O(1)            | O(1)             |
+| Reverse ([details](ArrayOperations/Reverse.md))                           | O(N)            | O(1)             |
+| Next Permutation ([details](ArrayOperations/NextPermutation.md))          | O(N)            | O(1)             |
+| Quick select (nth Element) ([details](ArrayOperations/QuickSelect.md))    | O(n^2)          | O(1)             |
