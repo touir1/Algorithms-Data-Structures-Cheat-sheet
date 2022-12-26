@@ -4,14 +4,14 @@ The Quick Select is an algorithm for finding the kth smallest element in an unor
 
 | Time Complexity | Space Complexity |
 | --------------- | ---------------- |
-| O(n^2)          | O(1)             |
+| O(N^2)          | O(1)             |
 
 ```java
 /*
 * The partition function is a subprocedure of Quick Sort that is used to split the list in
 * two groups, the first consisting of elements that are less than the value of the pivot and the second
 * is greater than the value of the pivot.
-* It has a linear complexity of O(n) in case when left is the zero index and right is the
+* It has a linear complexity of O(N) in case when left is the zero index and right is the
 * end of the array
 */
 public static int partition(int[] arr, int left, int right, int pivot) {
