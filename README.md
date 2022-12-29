@@ -13,5 +13,4 @@ Algorithms listing is found [here](Algorithms/Algorithms.md).
 ---
 ***Todo list:***
 
-- [ ] Explain Next Permutation algorithm
 - [ ] Add and explain QuickSort algorithm
