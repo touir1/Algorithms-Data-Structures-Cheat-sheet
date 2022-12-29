@@ -1,5 +1,19 @@
 # Next Permutation Algorithm (Java)
 
+The next permutation algorithm is an algorithm that generates the next lexicographically larger permutation of a given sequence. It is often used in combinatorial algorithms where it is necessary to generate all the permutations of a sequence in a particular order.
+
+The algorithm works by first finding the largest index i such that the sequence is not in descending order at that index, that is, the element at index i-1 is smaller than the element at index i. 
+
+If no such index exists, then the sequence is already the largest permutation and the algorithm terminates. 
+
+Otherwise, the algorithm searches for the smallest element in the sequence that is larger than the element at index i-1 and swaps these two elements. 
+
+Finally, the algorithm reverses the sub-sequence starting at index i, as this sub-sequence is now in descending order and needs to be reversed to get the next lexicographically larger permutation.
+
+| Time Complexity | Space Complexity |
+| --------------- | ---------------- |
+| O(N)            | O(1)             |
+
 ```java
 public static boolean nextPermutation(char[] arr) {
 		
