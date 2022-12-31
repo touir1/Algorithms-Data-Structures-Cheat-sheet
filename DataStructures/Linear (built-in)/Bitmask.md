@@ -251,3 +251,18 @@ Beware of overflows, as setting for example all the bits of an integer (32 bits)
 // 011111 ( 63)
 bitmask = (1 << 5) -1;
 ```
+
+### Check if number is power of 2
+
+To check if a number is a power of two we use LSB to get the first bit which is on from the right and check if the result corresponds to the first number.
+
+```java
+int number = 8; // 00001000
+// LSB(00001000) = 00001000 & 11111111 11111111 11111111 11111000 = 00001000
+// 8 (00001000) == 8 (00001000)
+boolean result = (number & (-number)) == number; // true
+number = 7; // 00000111
+// LSB(00000111) = 00000111 & 11111111 11111111 11111111 11111001 = 00000001
+// 7 (00000111) != 1 (00000001)
+result = (number & (-number)) == number; // false
+```
