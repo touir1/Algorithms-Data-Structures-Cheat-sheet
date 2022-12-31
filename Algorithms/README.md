@@ -14,7 +14,7 @@ In here, you'll find a list of many interesting algorithms with some explanation
 | Quick sort ([details](Sort/QuickSort.md))         | O(N log N)                                      | O(N)             |
 | Counting sort ([details](Sort/CountingSort.md))   | O(N)                                            | O(N)             |
 | Radix sort ([details](Sort/RadixSort.md))         | O(N)                                            | O(N)             |
-| Bucket sort ([details](Sort/RadixSort.md))        | O(N log N), depends on bucket sorting algorithm | O(N)             |
+| Bucket sort ([details](Sort/BucketSort.md))       | O(N log N), depends on bucket sorting algorithm | O(N)             |
 
 ## Search algorithms
 
