@@ -13,4 +13,13 @@ Algorithms listing is found [here](Algorithms/README.md).
 ---
 ***Todo list:***
 
+- [ ] Add and explain BubbleSort algorithm
+- [ ] Add and explain SelectionSort algorithm
+- [ ] Add and explain InsertionSort algorithm
+- [ ] Add and explain MergeSort algorithm
+- [ ] Add and explain HeapSort algorithm
 - [ ] Add and explain QuickSort algorithm
+- [ ] Add and explain CountingSort algorithm
+- [ ] Add and explain RadixSort algorithm
+- [ ] Add and explain BucketSort algorithm
+- [ ] Add and explain Hashing based search algorithm
