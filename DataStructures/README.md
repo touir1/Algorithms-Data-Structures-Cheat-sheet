@@ -36,6 +36,8 @@ All the data structures complexities are also listed: [time complexity](#time-co
   
   - short sequence of bits
   
+  - dynamically resizable
+  
   - usually represented by an integer (32 bits) or long (64 bits) value
   
   - quicker than an array of booleans as it uses bitwise operators
