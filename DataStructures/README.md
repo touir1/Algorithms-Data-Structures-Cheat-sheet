@@ -40,6 +40,14 @@ All the data structures complexities are also listed: [time complexity](#time-co
   
   - quicker than an array of booleans as it uses bitwise operators
 
+- BitSet: [Java](Linear%20(built-in)/BitSet.md)
+
+  - Sequence of bits
+  
+  - Takes less space than an array of boolean
+  
+  - Quick as it uses bitwise operations
+
 ## Non-linear data structures (built-in)
 
 ## Other data structures (implemented)
@@ -51,4 +59,5 @@ All the data structures complexities are also listed: [time complexity](#time-co
 | Static Array   | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | ArrayList      | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | Vector         | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
-| Bitmask        | O(1)           | O(1)   | ?      | ?      | ?                   | ?               |
+| Bitmask        | O(1)           | O(1)   | O(1)   | O(1)   | ?                   | ?               |
+| BitSet         | O(1)           | O(1)   | O(1)   | O(1)   | ?                   | ?               |
