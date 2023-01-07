@@ -8,5 +8,21 @@ Some key points:
   
 - Quick as it uses bitwise operations
 
+## BitSet Constructor
+
+```java
+// constructor without parameters
+BitSet bitSet = new BitSet();
+// the parameter represents the initial size (number of bits)
+BitSet bitSet = new BitSet(100_000);
+```
+
+You can also create a BitSet from existing arrays like long[], byte[] or from LongBuffer and ByteBuffer using BitSet valueOf function (different overloads)
+
+```java
+// long = 64 bits so an array of two bits represents 128 size BitSet
+BitSet bitSet = BitSet.valueOf(new long[] { 42, 12 });
+```
+
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
