@@ -24,5 +24,18 @@ You can also create a BitSet from existing arrays like long[], byte[] or from Lo
 BitSet bitSet = BitSet.valueOf(new long[] { 42, 12 });
 ```
 
+## Setting bits
+
+```java
+// set the bit at index 10 to true
+bitSet.set(10);
+// set bits in range [20,30[ to true (fromInclusive, toExclusive)
+bitSet.set(20, 30);
+// you can also set it to false using the same function
+bitSet.set(10, false);
+// same for range
+bitSet.set(20, 30, false);
+```
+
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
