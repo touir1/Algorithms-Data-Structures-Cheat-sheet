@@ -73,17 +73,22 @@ bitSet.flip(10,20);
 
 The **size()** method returns the **physical size of the bitSet**. So for example, if we have intantiate a bitSet with no arguments passed to the constructor, we'll have a long[] of size 1. Then the size would be 64.  
 The **length()** method returns the **logical size of the bitSet**. That means the that the method returns the position of the the bit after the last bit set to true (size of the sub array from the beginning to the last bit set to true).  
-The **cardinality()** method returns the **number of bits set to true** in the bitSet.
+The **cardinality()** method returns the **number of bits set to true** in the bitSet.  
 The **isEmpty()** method **checks if all the bits are off**. So if we have at least one bit set to true, the method returns false.
 
 ```java
 // creating a bitset of size 1024
 BitSet bitSet = new BitSet(1024);
 bitSet.set(5,10); // setting bits from 5 to 10 exclusive to true
-System.out.println("size: "+bitSet.size()+", length: "+bitSet.length()+", cardinality: "+bitSet.cardinality()+", isEmpty: "+bitSet.isEmpty);
+
+System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length() 
+       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty);
 // output: size: 1024, length: 10, cardinality: 5, isEmpty: false
+
 bitSet.clear(); // clear the bitSet so all the values are set to false
-System.out.println("size: "+bitSet.size()+", length: "+bitSet.length()+", cardinality: "+bitSet.cardinality()+", isEmpty: "+bitSet.isEmpty);
+
+System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length() 
+       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty);
 // output: size: 1024, length: 0, cardinality: 0, isEmpty: true
 ```
 
