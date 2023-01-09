@@ -118,6 +118,24 @@ b1 = BitSet.valueOf(new long[]{2});
 System.out.println(b1.intersects(b2)); // true
 ```
 
+## next and previous bit (set or unset)
+
+```java
+BitSet bitSet = BitSet.valueOf(new long[]{22}); // 010110
+
+// next set bit (fromInclusive)
+System.out.println(bitSet.nextSetBit(1)); // 1
+System.out.println(bitSet.nextSetBit(3)); // 4
+
+// next unset bit (fromInclusive)
+System.out.println(bitSet.nextClearBit(1)); // 3
+
+// previous set bit (fromInclusive)
+System.out.println(bitSet.previousSetBit(4)); // 3
+
+// previous unset bit (fromInclusive)
+System.out.println(bitSet.previousClearBit(2)); // 0
+```
 
 
 Bibliography:
