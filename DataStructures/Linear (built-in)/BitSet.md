@@ -137,6 +137,14 @@ System.out.println(bitSet.previousSetBit(3)); // 2
 System.out.println(bitSet.previousClearBit(2)); // 0
 ```
 
+## BitSet conversions
+
+Lastly, you can convert the BitSet back to long[] or a byte[] using **toByteArray()** and **toLongArray()**.
+
+```java
+byte[] bytes = bitSet.toByteArray();
+long[] longs = bitSet.toLongArray();
+```
 
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
