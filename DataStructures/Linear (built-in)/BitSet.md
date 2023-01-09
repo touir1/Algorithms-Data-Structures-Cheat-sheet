@@ -92,7 +92,7 @@ System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length()
 // output: size: 1024, length: 0, cardinality: 0, isEmpty: true
 ```
 
-## Logical operations: and, andNot, or, not, xor
+## Logical operations: and, andNot, or, xor
 
 ```java
 BitSet b1 = BitSet.valueOf(new long[]{6});  // 00110
@@ -108,5 +108,6 @@ b1.or(b2); // result: b1 = 00100 & 01010 = 01110
 // xor operation
 b1.xor(b2); // b1 = 01110 ^ 01010 = 00100
 ```
+
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
