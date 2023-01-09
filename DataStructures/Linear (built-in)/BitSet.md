@@ -82,13 +82,13 @@ BitSet bitSet = new BitSet(1024);
 bitSet.set(5,10); // setting bits from 5 to 10 exclusive to true
 
 System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length() 
-       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty);
+       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty());
 // output: size: 1024, length: 10, cardinality: 5, isEmpty: false
 
 bitSet.clear(); // clear the bitSet so all the values are set to false
 
 System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length() 
-       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty);
+       + ", cardinality: " + bitSet.cardinality() + ", isEmpty: " + bitSet.isEmpty());
 // output: size: 1024, length: 0, cardinality: 0, isEmpty: true
 ```
 
