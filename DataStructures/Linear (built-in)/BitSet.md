@@ -92,22 +92,33 @@ System.out.println("size: " + bitSet.size() + ", length: " + bitSet.length()
 // output: size: 1024, length: 0, cardinality: 0, isEmpty: true
 ```
 
-## Logical operations: and, andNot, or, xor
+## Logical operations: and, andNot, or, xor, intersects
 
 ```java
 BitSet b1 = BitSet.valueOf(new long[]{6});  // 00110
 BitSet b2 = BitSet.valueOf(new long[]{10}); // 01010
+
 // and operation between 2 bitSets, the result is put in the first variable (the one calling and())
 b1.and(b2); // b1 = 010 (2)
+
 // andNot clears all the bits that are set to true in the corresponding bitSet passed as parameter
 // x.andNot(y) is equivalent to x & (~ y) which is equivalent to x and (not y) in logical terms.
 b1 = BitSet.valueOf(new long[]{6});
 b1.andNot(b2); // result: b1 = 00100
+
 // or operation between 2 bitSets, result is in the first variable
 b1.or(b2); // result: b1 = 00100 & 01010 = 01110
+
 // xor operation
 b1.xor(b2); // b1 = 01110 ^ 01010 = 00100
+
+// intersects operation returns true if both BitSets have at least 1 bit set to true at the same position.
+System.out.println(b1.intersects(b2)); // false
+b1 = BitSet.valueOf(new long[]{2});
+System.out.println(b1.intersects(b2)); // true
 ```
+
+
 
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
