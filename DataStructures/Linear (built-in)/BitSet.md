@@ -146,5 +146,7 @@ byte[] bytes = bitSet.toByteArray();
 long[] longs = bitSet.toLongArray();
 ```
 
+---
+
 Bibliography:
 - [Guide to BitSet in Java - Baeldung](https://www.baeldung.com/java-bitset)
