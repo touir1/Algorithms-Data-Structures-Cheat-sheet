@@ -131,7 +131,7 @@ System.out.println(bitSet.nextSetBit(3)); // 4
 System.out.println(bitSet.nextClearBit(1)); // 3
 
 // previous set bit (fromInclusive)
-System.out.println(bitSet.previousSetBit(4)); // 3
+System.out.println(bitSet.previousSetBit(3)); // 2
 
 // previous unset bit (fromInclusive)
 System.out.println(bitSet.previousClearBit(2)); // 0
