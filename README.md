@@ -14,6 +14,7 @@ Algorithms listing is found [here](Algorithms/README.md).
 ***Todo list:***
 
 - [ ] Add a documentation for LinkedList (used in problem 11988 uva): doing
+- [ ] Add a documentation for Stack
 - [ ] Add and explain BubbleSort algorithm
 - [ ] Add and explain SelectionSort algorithm
 - [ ] Add and explain InsertionSort algorithm
