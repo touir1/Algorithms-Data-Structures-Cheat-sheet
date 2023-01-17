@@ -32,6 +32,12 @@ All the data structures complexities are also listed: [time complexity](#time-co
     | size increment | 50% of current size if excceds capacity | 100% of current size if exceeds capacity |
     | speed          | faster as it's not synchronized         | slower as it's synchronized              |
 
+- LinkedList: [Java](Linear%20(built-in)/Bitmask.md)
+
+  - Sequence of linked elements (each element linked to the next)
+
+  - dynamically resizable
+
 - Bitmask: [Java](Linear%20(built-in)/Bitmask.md)
   
   - short sequence of bits
@@ -60,6 +66,7 @@ All the data structures complexities are also listed: [time complexity](#time-co
 | -------------- | -------------- | ------ | ------ | ------ | ------------------- | --------------- |
 | Static Array   | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | ArrayList      | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
+| LinkedList     | O(N)           | O(N)   | O(1)   | O(1)   | O(N)                | O(N)            |
 | Vector         | O(1)           | O(1)   | O(N)   | O(N)   | O(N)                | O(log N)        |
 | Bitmask        | O(1)           | O(1)   | O(1)   | O(1)   | ?                   | ?               |
 | BitSet         | O(1)           | O(1)   | O(1)   | O(1)   | ?                   | ?               |
