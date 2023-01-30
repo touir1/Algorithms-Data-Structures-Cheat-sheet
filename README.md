@@ -13,7 +13,8 @@ Algorithms listing is found [here](Algorithms).
 ---
 ***Todo list:***
 
-- [ ] Add a documentation for LinkedList (used in problem 11988 uva): doing
+- [x] Add a documentation for LinkedList (used in problem 11988 uva): doing
+- [ ] Add a documentation for Queue & Deque and their LinkedList / ArrayQueue implementations (used in problem 12207 uva)  
 - [ ] Add a documentation for Stack
 - [ ] Add and explain BubbleSort algorithm
 - [ ] Add and explain SelectionSort algorithm
