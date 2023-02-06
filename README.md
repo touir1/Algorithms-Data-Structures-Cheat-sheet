@@ -14,7 +14,13 @@ Algorithms listing is found [here](Algorithms).
 ***Todo list:***
 
 - [x] Add a documentation for LinkedList (used in problem 11988 uva): doing
-- [ ] Add a documentation for Queue & Deque and their LinkedList / ArrayQueue implementations (used in problem 12207 uva)  
+- [ ] Add a documentation for Queue & Deque and their LinkedList / ArrayQueue implementations (used in problem 12207 uva)
+- [ ] Add a documentation for TreeMap (Balanced Binary Search Tree: BST) (used in problem 12207 uva)
+- [ ] Add a documentation for TreeSet (Balanced Binary Search Tree: BST)
+- [ ] Add a documentation for PriorityQueue (Heap)
+- [ ] Add a documentation for HashSet
+- [ ] Add a documentation for HashMap
+- [ ] Add a documentation for HashTable
 - [ ] Add a documentation for Stack
 - [ ] Add and explain BubbleSort algorithm
 - [ ] Add and explain SelectionSort algorithm
